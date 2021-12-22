@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 100px auto;
+  width: 1000px;
+  height: 320px;
+  display: flex;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+.container li {
+  list-style: none;
+  width: 200px;
+  height: 320px;
+  transition: all 1s ease-in-out;
+}
+img {
+  border-radius: 5px;
+}
